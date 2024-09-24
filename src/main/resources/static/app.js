@@ -1,6 +1,5 @@
 // API Base URL
-const API_URL = "http://localhost:8080/api/todos";
-
+const API_URL = "http://localhost:8081/api/todos";
 // Görevleri Fetch Et ve Listele
 function fetchTodos() {
     fetch(API_URL)
