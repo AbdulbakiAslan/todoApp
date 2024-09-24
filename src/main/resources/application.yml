@@ -1,0 +1,11 @@
+
+
+keycloak:
+  realm: mynewrealm
+  auth-server-url: http://localhost:8180/
+  resource: todo-app-client
+  credentials:
+    secret: ZIfbruNEvwcnNekV5bYM09rhxxhQDxfW
+  ssl-required: external
+  public-client: false
+  bearer-only: true
